@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voraz_Burguers</title>
+    <link rel = "stylesheet" href="assets/css/burguer.css">
+</head>
+<body>
+    <header>
+    <h1>VorazBurguers</h1>
+    <div class = "horarios">
+    <h5>Horarios de pedidos:</h5>
+    <p>
+        De lunes a jueves: 19:30 - 21:00
+    </p>
+    <p>
+        De viernes a domingos: 19:30 - 23:00
+    </p>
+    
+    </div>
+    
+    </header>
+   
+    <section class = "hamburguesas">
+        <article class = "cardburguer">
+        <div class="check">
+            <h3>CHEESE BURGUER </h3>
+            <input class="tamaño" type="checkbox"></input>
+        </div>
+        <p>
+           MEDALLON DE 110G TRIPLE, QUESO X2, BACON Y CEBOLLA CORTADA EN CUBOS
+        </p>
+        <p>
+            $2500 
+        </p>
+
+        <img class = "imagen" src= "https://bigpons.com.ar/productos/20220711103839.jpeg">
+        </article>
+
+        <article class = "cardburguer" >
+            <div class="check">
+                <h3>OKLAHOMA</h3>
+                <input class="tamaño" type="checkbox"></input>
+            </div>
+            <p>
+               DOBLE SMASH DE 100G, CHEDDAR X4 Y CEBOLLA CARAMELIZADA
+            </p>
+            <p>
+               $3200
+            </p>
+            <img class = "imagen"  src= "https://burgerfoodporn.com/wp-content/uploads/2023/06/oklahoma.jpg">
+        </article>
+
+        <article class = "cardburguer">
+            <div class="check">
+                <h3>PATY MEALT</h3>
+                <input class="tamaño" type="checkbox"></input>
+            </div>
+            <p>
+                PAN DE MOLDE, DOBLE SMASH DE 110G, CHEDDAR X3 Y CEBOLLA CARAMELIZADA
+            </p>
+            <p>
+                $3250
+            </p>
+            <img class = "imagen" src= "https://kentrollins.com/wp-content/uploads/2020/10/IMG_5689-scaled.jpg">
+        </article>
+
+        <article class = "cardburguer">
+            <div class="check">
+                <h3>CRISPY</h3>
+                <input class="tamaño" type="checkbox"></input>
+
+            </div>
+            <p>
+                DOBLE MEDALLON DE 100G, CHEDDAR X4, BACON Y CEBOLLA CRISPY
+            </p>
+            <p>
+                $3100
+            </p>
+            <img class = "imagen" src="https://pbs.twimg.com/media/Fk227IWXkAE3HHw.png" >
+
+        </article>
+        
+        <article class = "cardburguer">
+            <div class="check">
+                <h3>HEY OH</h3>
+                <input class="tamaño" type="checkbox"></input>
+            </div>
+            <p>
+                TRIPLE MEDALLON DE 110G, CHEDDAR X6 , BACON X3 Y SALSA BIG MAC
+            </p>
+            <p>
+                $3800
+            </p>
+
+        <img class = "imagen" src="https://bigpons.com.ar/productos/20220621103014.jpeg">
+        </article>
+
+        <article class="cardburguer">
+            <div class="check">
+                <h3>OH SHIT</h3>
+                <input class="tamaño" type="checkbox"></input>
+            </div>
+            <p>
+                TRIPLE MEDALLON DE 120G, CHEDDAR X5, BACON X4 Y SALSA STAKER
+            </p>
+            <p>
+                $3850
+            </p>
+
+           <img class = "imagen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwD9xKu9KiIVLd_ZScanThQFdD44SHMbLYehNL2z0pXzj0LtSZ49EagqOYqwLxypagMvc&usqp=CAU"> 
+
+        </article>
+        
+    </section>
+
+    <div class= "pasaje">
+        <p>
+            ¿YA PEDISTE LA BURGUER?
+            <a href="papas.html" target="_BLANK">PARA LAS PAPAS, CLICK AQUI ---> </a>
+        </p>
+    </div>
+
+
+    <section class="maps">
+        <div class="check">
+            Telefono: 454-685
+        </div>
+
+        <p>
+            <a class="redsocial" href="https://www.instagram.com/vorazrestaurant/?hl=en" target="_BLANK">
+                Nuestro Instagram</a> 
+        </p>
+
+        <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52531.79040433958!2d-58.516120678320306!3d-34.6234532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb9fd3a208d5%3A0xa17e7683d05eb253!2sVoraz%20Caballito!5e0!3m2!1ses-419!2sar!4v1692244565727!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>    
+        
+        
+
+        
+    </section>
+</body>
+</html>
