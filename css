@@ -1,0 +1,129 @@
+
+body {
+    background-color: peachpuff;
+}
+
+header{
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding: 15px;
+    font-size: larger;
+    font-family: cursive;
+    
+}
+
+
+article{
+    width: 500px;
+    height: 350px;
+    font-family: 'Times New Roman';
+    border-style: double;
+    background-color: #EDAE49;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.horarios{
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    gap:5px
+}
+
+
+.hamburguesas{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap:20px;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.imagen{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    border-style: inherit;
+    object-fit: cover; 
+}
+
+.cardburguer{
+    padding: 8px;
+}
+
+.maps{
+    font-size: larger;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    width: 350px;
+    height: 250px;
+}
+
+.redsocial{
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding: 15px;
+    font-size: larger;
+   
+}
+
+.check{
+    display: flex;
+    gap:5px
+}
+
+.tamaño{
+    width: 16px;
+    height: 16px;
+}
+
+.letrasT{
+    font-size: small;
+    font-family: inherit;
+}
+
+.imagen2{
+    height: 200px;
+    border-style: double;
+    margin: 5px;
+}
+
+
+.pasaje{
+    font-size: medium;
+    font-family: 'Times New Roman';
+    text-align: right;
+    margin: 20px;
+    gap: 15px;
+    padding-right: 40px;
+
+}
+
+.volver{
+    font-size: medium;
+    font-family: 'Times New Roman';
+    text-align: left;
+    margin: 20px;
+    gap: 15px;
+    padding-left: 40px;
+}
+
